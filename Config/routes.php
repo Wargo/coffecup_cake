@@ -32,6 +32,16 @@
 	Router::connect('/pages/*', array('controller' => 'pages', 'action' => 'display'));
 
 /**
+ * Connect media types to media plugin
+ */
+	Router::connect(
+        '/:mediaType/*',
+        array('plugin' => 'media', 'controller' => 'media', 'action' => 'serve'),
+        //array('controller' => 'media', 'action' => 'serve'),
+        array('mediaType' => '(aud|doc|gen|ico|img|txt|vid)')
+	);
+
+/**
  * Load all plugin routes.  See the CakePlugin documentation on 
  * how to customize the loading of plugin routes.
  */
@@ -42,3 +52,4 @@
  * the built-in default routes.
  */
 	require CAKE . 'Config' . DS . 'routes.php';
+

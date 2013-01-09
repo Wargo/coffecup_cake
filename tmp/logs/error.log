@@ -188,3 +188,86 @@
 #6 /var/www/cakes/2.1.5.x/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
 #7 /var/www/apps/coffecup/webroot/index.php(94): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #8 {main}
+2013-01-09 18:34:39 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/apps/coffecup/webroot/index.php(94): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-09 18:36:23 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/apps/coffecup/webroot/index.php(94): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-09 18:37:13 Error: [MissingPluginException] Plugin Media could not be found.
+#0 /var/www/cakes/2.1.5.x/Cake/Core/App.php(364): CakePlugin::path('Media')
+#1 /var/www/cakes/2.1.5.x/Cake/Core/App.php(225): App::pluginPath('Media')
+#2 /var/www/cakes/2.1.5.x/Cake/Core/App.php(542): App::path('Controller', 'Media')
+#3 [internal function]: App::load('MediaController')
+#4 [internal function]: spl_autoload_call('MediaController')
+#5 /var/www/cakes/2.1.5.x/Cake/Routing/Dispatcher.php(186): class_exists('MediaController')
+#6 /var/www/cakes/2.1.5.x/Cake/Routing/Dispatcher.php(155): Dispatcher->_loadController(Object(CakeRequest))
+#7 /var/www/cakes/2.1.5.x/Cake/Routing/Dispatcher.php(76): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/apps/coffecup/webroot/index.php(94): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2013-01-09 18:37:34 Error: [MissingPluginException] Plugin Media could not be found.
+#0 /var/www/cakes/2.1.5.x/Cake/Core/App.php(364): CakePlugin::path('Media')
+#1 /var/www/cakes/2.1.5.x/Cake/Core/App.php(225): App::pluginPath('Media')
+#2 /var/www/cakes/2.1.5.x/Cake/Core/App.php(542): App::path('Controller', 'Media')
+#3 [internal function]: App::load('MediaController')
+#4 [internal function]: spl_autoload_call('MediaController')
+#5 /var/www/cakes/2.1.5.x/Cake/Routing/Dispatcher.php(186): class_exists('MediaController')
+#6 /var/www/cakes/2.1.5.x/Cake/Routing/Dispatcher.php(155): Dispatcher->_loadController(Object(CakeRequest))
+#7 /var/www/cakes/2.1.5.x/Cake/Routing/Dispatcher.php(76): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/apps/coffecup/webroot/index.php(94): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2013-01-09 18:38:14 Error: [MissingPluginException] Plugin Media could not be found.
+#0 /var/www/cakes/2.1.5.x/Cake/Core/App.php(364): CakePlugin::path('Media')
+#1 /var/www/cakes/2.1.5.x/Cake/Core/App.php(225): App::pluginPath('Media')
+#2 /var/www/cakes/2.1.5.x/Cake/Core/App.php(542): App::path('Controller', 'Media')
+#3 [internal function]: App::load('MediaController')
+#4 [internal function]: spl_autoload_call('MediaController')
+#5 /var/www/cakes/2.1.5.x/Cake/Routing/Dispatcher.php(186): class_exists('MediaController')
+#6 /var/www/cakes/2.1.5.x/Cake/Routing/Dispatcher.php(155): Dispatcher->_loadController(Object(CakeRequest))
+#7 /var/www/cakes/2.1.5.x/Cake/Routing/Dispatcher.php(76): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/apps/coffecup/webroot/index.php(94): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2013-01-09 18:38:18 Error: [MissingPluginException] Plugin Media could not be found.
+#0 /var/www/cakes/2.1.5.x/Cake/Core/App.php(364): CakePlugin::path('Media')
+#1 /var/www/cakes/2.1.5.x/Cake/Core/App.php(225): App::pluginPath('Media')
+#2 /var/www/cakes/2.1.5.x/Cake/Core/App.php(542): App::path('Controller', 'Media')
+#3 [internal function]: App::load('MediaController')
+#4 [internal function]: spl_autoload_call('MediaController')
+#5 /var/www/cakes/2.1.5.x/Cake/Routing/Dispatcher.php(186): class_exists('MediaController')
+#6 /var/www/cakes/2.1.5.x/Cake/Routing/Dispatcher.php(155): Dispatcher->_loadController(Object(CakeRequest))
+#7 /var/www/cakes/2.1.5.x/Cake/Routing/Dispatcher.php(76): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/apps/coffecup/webroot/index.php(94): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2013-01-09 18:38:19 Error: [MissingPluginException] Plugin Media could not be found.
+#0 /var/www/cakes/2.1.5.x/Cake/Core/App.php(364): CakePlugin::path('Media')
+#1 /var/www/cakes/2.1.5.x/Cake/Core/App.php(225): App::pluginPath('Media')
+#2 /var/www/cakes/2.1.5.x/Cake/Core/App.php(542): App::path('Controller', 'Media')
+#3 [internal function]: App::load('MediaController')
+#4 [internal function]: spl_autoload_call('MediaController')
+#5 /var/www/cakes/2.1.5.x/Cake/Routing/Dispatcher.php(186): class_exists('MediaController')
+#6 /var/www/cakes/2.1.5.x/Cake/Routing/Dispatcher.php(155): Dispatcher->_loadController(Object(CakeRequest))
+#7 /var/www/cakes/2.1.5.x/Cake/Routing/Dispatcher.php(76): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/apps/coffecup/webroot/index.php(94): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2013-01-09 18:38:19 Error: [MissingPluginException] Plugin Media could not be found.
+#0 /var/www/cakes/2.1.5.x/Cake/Core/App.php(364): CakePlugin::path('Media')
+#1 /var/www/cakes/2.1.5.x/Cake/Core/App.php(225): App::pluginPath('Media')
+#2 /var/www/cakes/2.1.5.x/Cake/Core/App.php(542): App::path('Controller', 'Media')
+#3 [internal function]: App::load('MediaController')
+#4 [internal function]: spl_autoload_call('MediaController')
+#5 /var/www/cakes/2.1.5.x/Cake/Routing/Dispatcher.php(186): class_exists('MediaController')
+#6 /var/www/cakes/2.1.5.x/Cake/Routing/Dispatcher.php(155): Dispatcher->_loadController(Object(CakeRequest))
+#7 /var/www/cakes/2.1.5.x/Cake/Routing/Dispatcher.php(76): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/apps/coffecup/webroot/index.php(94): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2013-01-09 18:39:39 Error: [MissingPluginException] Plugin Media could not be found.
+#0 /var/www/cakes/2.1.5.x/Cake/Core/App.php(364): CakePlugin::path('Media')
+#1 /var/www/cakes/2.1.5.x/Cake/Core/App.php(225): App::pluginPath('Media')
+#2 /var/www/cakes/2.1.5.x/Cake/Core/App.php(542): App::path('Controller', 'Media')
+#3 [internal function]: App::load('MediaController')
+#4 [internal function]: spl_autoload_call('MediaController')
+#5 /var/www/cakes/2.1.5.x/Cake/Routing/Dispatcher.php(186): class_exists('MediaController')
+#6 /var/www/cakes/2.1.5.x/Cake/Routing/Dispatcher.php(155): Dispatcher->_loadController(Object(CakeRequest))
+#7 /var/www/cakes/2.1.5.x/Cake/Routing/Dispatcher.php(76): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/apps/coffecup/webroot/index.php(94): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
