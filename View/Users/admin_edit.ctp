@@ -1,5 +1,8 @@
 <?php
-echo $this->Form->create('User', array('type' => 'file', 'controller' => 'categories', 'action' => 'edit', $id));
+
+echo $this->Html->link(__('Volver', true), array('controller' => 'users', 'action' => 'index'));
+
+echo $this->Form->create('User');
 
 echo $this->Form->inputs(array(
 	'fieldset' => false,
@@ -32,5 +35,10 @@ echo $this->Form->inputs(array(
 	),
 ));
 
+if ($id) {
+	echo $this->Html->image('users/' . $id . '.jpg');
+}
+
 echo $this->Form->end(__('Guardar', true));
+
 echo $this->Html->link(__('Cancelar', true), array('admin' => true, 'controller' => 'users', 'action' => 'index'));

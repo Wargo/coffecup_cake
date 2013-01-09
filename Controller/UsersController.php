@@ -26,9 +26,9 @@ class UsersController extends AppController {
 			}
 
 			if (!empty($_FILES['data']['name']['User']['file'])) {
-				$ext = explode('.', $_FILES['data']['name']['User']['file']);
-				$ext = $ext[count($ext) - 1];
-				move_uploaded_file($_FILES['data']['tmp_name']['User']['file'], APP . 'uploads' . DS . 'img' . DS . 'users' . DS . $id . '.' . $ext);
+				//$ext = explode('.', $_FILES['data']['name']['User']['file']);
+				//$ext = $ext[count($ext) - 1];
+				move_uploaded_file($_FILES['data']['tmp_name']['User']['file'], APP . 'uploads' . DS . 'img' . DS . 'users' . DS . $id . '.jpg'); //  . '.' . $ext
 			}
 
 			return $this->redirect('index');
