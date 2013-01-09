@@ -87,6 +87,9 @@ Cache::config('default', array('engine' => 'File'));
 
 CakePlugin::loadAll();
 
+App::uses('File', 'Utility'); 
+App::uses('Folder', 'Utility'); 
+
 
 /**
  * The settings below can be used to set additional paths to models, views and controllers.
