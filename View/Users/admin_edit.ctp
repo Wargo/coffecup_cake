@@ -2,7 +2,7 @@
 
 echo $this->Html->link(__('Volver', true), array('controller' => 'users', 'action' => 'index'));
 
-echo $this->Form->create('User');
+echo $this->Form->create('User', array('type' => 'file'));
 
 echo $this->Form->inputs(array(
 	'fieldset' => false,
