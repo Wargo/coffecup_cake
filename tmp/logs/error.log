@@ -1,0 +1,190 @@
+2013-01-08 12:54:02 Error: [MissingTableException] Table videos for model Video was not found in datasource default.
+#0 /var/www/cakes/2.1.5.x/Cake/Model/Model.php(3442): Model->setSource('videos')
+#1 /var/www/cakes/2.1.5.x/Cake/Model/Model.php(2701): Model->getDataSource()
+#2 /var/www/apps/reddevil/Controller/VideosController.php(6): Model->find('all')
+#3 [internal function]: VideosController->home()
+#4 /var/www/cakes/2.1.5.x/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(VideosController), Array)
+#5 /var/www/cakes/2.1.5.x/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/cakes/2.1.5.x/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(VideosController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/apps/reddevil/webroot/index.php(94): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2013-01-08 13:40:55 Error: [MissingViewException] View file "/var/www/apps/reddevil/View/Videos/view_photos.ctp" is missing.
+#0 /var/www/cakes/2.1.5.x/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /var/www/cakes/2.1.5.x/Cake/Controller/Controller.php(959): View->render(NULL, NULL)
+#2 /var/www/cakes/2.1.5.x/Cake/Routing/Dispatcher.php(110): Controller->render()
+#3 /var/www/cakes/2.1.5.x/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(VideosController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/apps/reddevil/webroot/index.php(94): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-08 13:41:00 Error: [MissingViewException] View file "/var/www/apps/reddevil/View/Videos/view_photos.ctp" is missing.
+#0 /var/www/cakes/2.1.5.x/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /var/www/cakes/2.1.5.x/Cake/Controller/Controller.php(959): View->render(NULL, NULL)
+#2 /var/www/cakes/2.1.5.x/Cake/Routing/Dispatcher.php(110): Controller->render()
+#3 /var/www/cakes/2.1.5.x/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(VideosController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/apps/reddevil/webroot/index.php(94): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-08 13:41:28 Error: [MissingViewException] View file "/var/www/apps/reddevil/View/Videos/view_photos.ctp" is missing.
+#0 /var/www/cakes/2.1.5.x/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /var/www/cakes/2.1.5.x/Cake/Controller/Controller.php(959): View->render(NULL, NULL)
+#2 /var/www/cakes/2.1.5.x/Cake/Routing/Dispatcher.php(110): Controller->render()
+#3 /var/www/cakes/2.1.5.x/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(VideosController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/apps/reddevil/webroot/index.php(94): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-08 13:41:40 Error: [MissingViewException] View file "/var/www/apps/reddevil/View/Videos/view_photos.ctp" is missing.
+#0 /var/www/cakes/2.1.5.x/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /var/www/cakes/2.1.5.x/Cake/Controller/Controller.php(959): View->render(NULL, NULL)
+#2 /var/www/cakes/2.1.5.x/Cake/Routing/Dispatcher.php(110): Controller->render()
+#3 /var/www/cakes/2.1.5.x/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(VideosController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/apps/reddevil/webroot/index.php(94): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-08 13:42:42 Error: [MissingViewException] View file "/var/www/apps/reddevil/View/Videos/view_photos.ctp" is missing.
+#0 /var/www/cakes/2.1.5.x/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /var/www/cakes/2.1.5.x/Cake/Controller/Controller.php(959): View->render(NULL, NULL)
+#2 /var/www/cakes/2.1.5.x/Cake/Routing/Dispatcher.php(110): Controller->render()
+#3 /var/www/cakes/2.1.5.x/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(VideosController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/apps/reddevil/webroot/index.php(94): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-08 13:43:30 Error: [MissingViewException] View file "/var/www/apps/reddevil/View/Videos/Elements/Videos/photos.ctp" is missing.
+#0 /var/www/cakes/2.1.5.x/Cake/View/View.php(467): View->_getViewFileName('Elements/Videos...')
+#1 /var/www/cakes/2.1.5.x/Cake/Controller/Controller.php(959): View->render('Elements/Videos...', NULL)
+#2 /var/www/apps/reddevil/Controller/VideosController.php(37): Controller->render('Elements/Videos...')
+#3 [internal function]: VideosController->view_photos('1')
+#4 /var/www/cakes/2.1.5.x/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(VideosController), Array)
+#5 /var/www/cakes/2.1.5.x/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/cakes/2.1.5.x/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(VideosController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/apps/reddevil/webroot/index.php(94): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2013-01-08 13:43:46 Error: [MissingViewException] View file "/var/www/apps/reddevil/View/Videos/view_photos.ctp" is missing.
+#0 /var/www/cakes/2.1.5.x/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /var/www/cakes/2.1.5.x/Cake/Controller/Controller.php(959): View->render(NULL, NULL)
+#2 /var/www/cakes/2.1.5.x/Cake/Routing/Dispatcher.php(110): Controller->render()
+#3 /var/www/cakes/2.1.5.x/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(VideosController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/apps/reddevil/webroot/index.php(94): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-08 13:44:05 Error: [MissingViewException] View file "/var/www/apps/reddevil/View/Videos/view_photos.ctp" is missing.
+#0 /var/www/cakes/2.1.5.x/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /var/www/cakes/2.1.5.x/Cake/Controller/Controller.php(959): View->render(NULL, NULL)
+#2 /var/www/cakes/2.1.5.x/Cake/Routing/Dispatcher.php(110): Controller->render()
+#3 /var/www/cakes/2.1.5.x/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(VideosController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/apps/reddevil/webroot/index.php(94): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-08 13:44:10 Error: [MissingViewException] View file "/var/www/apps/reddevil/View/Videos/view_photos.ctp" is missing.
+#0 /var/www/cakes/2.1.5.x/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /var/www/cakes/2.1.5.x/Cake/Controller/Controller.php(959): View->render(NULL, NULL)
+#2 /var/www/cakes/2.1.5.x/Cake/Routing/Dispatcher.php(110): Controller->render()
+#3 /var/www/cakes/2.1.5.x/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(VideosController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/apps/reddevil/webroot/index.php(94): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-08 13:44:18 Error: [MissingViewException] View file "/var/www/apps/reddevil/View/Videos/view_photos.ctp" is missing.
+#0 /var/www/cakes/2.1.5.x/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /var/www/cakes/2.1.5.x/Cake/Controller/Controller.php(959): View->render(NULL, NULL)
+#2 /var/www/cakes/2.1.5.x/Cake/Routing/Dispatcher.php(110): Controller->render()
+#3 /var/www/cakes/2.1.5.x/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(VideosController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/apps/reddevil/webroot/index.php(94): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-08 13:44:33 Error: [MissingViewException] View file "/var/www/apps/reddevil/View/Videos/view_photos.ctp" is missing.
+#0 /var/www/cakes/2.1.5.x/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /var/www/cakes/2.1.5.x/Cake/Controller/Controller.php(959): View->render(NULL, NULL)
+#2 /var/www/cakes/2.1.5.x/Cake/Routing/Dispatcher.php(110): Controller->render()
+#3 /var/www/cakes/2.1.5.x/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(VideosController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/apps/reddevil/webroot/index.php(94): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-08 13:44:44 Error: [MissingViewException] View file "/var/www/apps/reddevil/View/Videos/Elements/Videos/photos.ctp" is missing.
+#0 /var/www/cakes/2.1.5.x/Cake/View/View.php(467): View->_getViewFileName('Elements/Videos...')
+#1 /var/www/cakes/2.1.5.x/Cake/Controller/Controller.php(959): View->render('Elements/Videos...', NULL)
+#2 /var/www/apps/reddevil/Controller/VideosController.php(39): Controller->render('Elements/Videos...')
+#3 [internal function]: VideosController->view_photos('1')
+#4 /var/www/cakes/2.1.5.x/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(VideosController), Array)
+#5 /var/www/cakes/2.1.5.x/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/cakes/2.1.5.x/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(VideosController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/apps/reddevil/webroot/index.php(94): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2013-01-08 16:07:26 Error: [MissingActionException] Action VideosController::Array() could not be found.
+#0 /var/www/cakes/2.1.5.x/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/cakes/2.1.5.x/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(VideosController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/apps/reddevil/webroot/index.php(94): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-01-09 11:04:28 Error: [MissingViewException] View file "/var/www/apps/reddevil/View/Categories/edit.ctp" is missing.
+#0 /var/www/cakes/2.1.5.x/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /var/www/cakes/2.1.5.x/Cake/Controller/Controller.php(959): View->render(NULL, NULL)
+#2 /var/www/cakes/2.1.5.x/Cake/Routing/Dispatcher.php(110): Controller->render()
+#3 /var/www/cakes/2.1.5.x/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/apps/reddevil/webroot/index.php(94): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-09 12:05:06 Error: [MissingActionException] Action CategoriesController::index() could not be found.
+#0 /var/www/cakes/2.1.5.x/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/cakes/2.1.5.x/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/apps/reddevil/webroot/index.php(94): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-01-09 12:05:40 Error: [MissingActionException] Action CategoriesController::index() could not be found.
+#0 /var/www/cakes/2.1.5.x/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/cakes/2.1.5.x/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/apps/reddevil/webroot/index.php(94): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-01-09 12:05:53 Error: [MissingViewException] View file "/var/www/apps/reddevil/View/Categories/admin_index.ctp" is missing.
+#0 /var/www/cakes/2.1.5.x/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /var/www/cakes/2.1.5.x/Cake/Controller/Controller.php(959): View->render(NULL, NULL)
+#2 /var/www/cakes/2.1.5.x/Cake/Routing/Dispatcher.php(110): Controller->render()
+#3 /var/www/cakes/2.1.5.x/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/apps/reddevil/webroot/index.php(94): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-09 12:18:59 Error: [MissingViewException] View file "/var/www/apps/reddevil/View/Videos/admin_index.ctp" is missing.
+#0 /var/www/cakes/2.1.5.x/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /var/www/cakes/2.1.5.x/Cake/Controller/Controller.php(959): View->render(NULL, NULL)
+#2 /var/www/cakes/2.1.5.x/Cake/Routing/Dispatcher.php(110): Controller->render()
+#3 /var/www/cakes/2.1.5.x/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(VideosController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/apps/reddevil/webroot/index.php(94): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-09 17:31:56 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /var/www/apps/coffecup/webroot/index.php(94): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-09 17:31:56 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/apps/coffecup/webroot/index.php(94): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-09 17:32:19 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/apps/coffecup/webroot/index.php(94): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-09 17:33:49 Error: [MissingControllerException] Controller class UsersController could not be found.
+#0 /var/www/apps/coffecup/webroot/index.php(94): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-09 17:33:50 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/apps/coffecup/webroot/index.php(94): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-09 17:34:17 Error: [MissingTableException] Table users for model User was not found in datasource default.
+#0 /var/www/cakes/2.1.5.x/Cake/Model/Model.php(3442): Model->setSource('users')
+#1 /var/www/cakes/2.1.5.x/Cake/Model/Model.php(2701): Model->getDataSource()
+#2 /var/www/apps/coffecup/Controller/UsersController.php(6): Model->find('all')
+#3 [internal function]: UsersController->admin_index()
+#4 /var/www/cakes/2.1.5.x/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#5 /var/www/cakes/2.1.5.x/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/cakes/2.1.5.x/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/apps/coffecup/webroot/index.php(94): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2013-01-09 17:34:18 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/apps/coffecup/webroot/index.php(94): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-09 17:36:20 Error: [MissingControllerException] Controller class Adm:qinController could not be found.
+#0 /var/www/apps/coffecup/webroot/index.php(94): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-09 17:36:43 Error: [MissingControllerException] Controller class Adm:qinController could not be found.
+#0 /var/www/apps/coffecup/webroot/index.php(94): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-09 17:36:51 Error: [MissingTableException] Table users for model User was not found in datasource default.
+#0 /var/www/cakes/2.1.5.x/Cake/Model/Model.php(3442): Model->setSource('users')
+#1 /var/www/cakes/2.1.5.x/Cake/Model/Model.php(2701): Model->getDataSource()
+#2 /var/www/apps/coffecup/Controller/UsersController.php(6): Model->find('all')
+#3 [internal function]: UsersController->admin_index()
+#4 /var/www/cakes/2.1.5.x/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#5 /var/www/cakes/2.1.5.x/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/cakes/2.1.5.x/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/apps/coffecup/webroot/index.php(94): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2013-01-09 17:41:45 Error: [MissingTableException] Table users for model User was not found in datasource default.
+#0 /var/www/cakes/2.1.5.x/Cake/Model/Model.php(3442): Model->setSource('users')
+#1 /var/www/cakes/2.1.5.x/Cake/Model/Model.php(2701): Model->getDataSource()
+#2 /var/www/apps/coffecup/Controller/UsersController.php(6): Model->find('all')
+#3 [internal function]: UsersController->admin_index()
+#4 /var/www/cakes/2.1.5.x/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#5 /var/www/cakes/2.1.5.x/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/cakes/2.1.5.x/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/apps/coffecup/webroot/index.php(94): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
