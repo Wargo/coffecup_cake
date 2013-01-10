@@ -1,6 +1,27 @@
 <?php
 class UsersController extends AppController {
 
+	function json() {
+
+		$users = array();
+
+		//$this->request->data['w'] = 320;
+		//$this->request->data['h'] = 480;
+
+		if ($this->request->data) {
+
+			extract($this->request->data);
+
+			$users = $this->User->find('all');
+
+			$this->set(compact('w', 'h'));
+
+		}
+
+		$this->set(compact('users'));
+
+	}
+
 	function admin_index() {
 		
 		$users = $this->User->find('all');
