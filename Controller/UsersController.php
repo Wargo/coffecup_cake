@@ -3,6 +3,8 @@ class UsersController extends AppController {
 
 	function json() {
 
+		$this->layout = false;
+
 		$users = array();
 
 		//$this->request->data['w'] = 320;
