@@ -18,8 +18,8 @@ if (!count($users)) {
 			'birthday' => $User['birthday'],
 			'talkmeabout' => $User['talkmeabout'],
 			'icomefrom' => $User['icomefrom'],
-			'img_p' => $this->Html->url(array('full_base' => true, 'controller' => false, 'action' => 'img')) .  '/users/' . $User['id'] . ',fitCrop,100,160.jpg',
-			'img_b' => $this->Html->url(array('full_base' => true, 'controller' => false, 'action' => 'img')) .  '/users/' . $User['id'] . ',fitCrop,' . $w . ',' . $h . '.jpg',
+			'img_p' => $this->Html->url(array('full_base' => true, 'controller' => false, 'action' => 'img')) .  '/users/' . $User['id'] . ',fitCrop,200,320.jpg',
+			'img_b' => $this->Html->url(array('full_base' => true, 'controller' => false, 'action' => 'img')) .  '/users/' . $User['id'] . ',fitCrop,' . ($w * 2) . ',' . ($h * 2) . '.jpg',
 		);
 
 	}
