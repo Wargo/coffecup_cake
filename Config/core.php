@@ -276,3 +276,7 @@ Cache::config('_cake_model_', array(
 	'serialize' => ($engine === 'File'),
 	'duration' => $duration
 ));
+
+//ini_set('include_path',ini_get('include_path').':' . APP . 'Plugin/Media/Libs/mm/src:');
+
+Configure::write('Mime.magic', array('db' => '/usr/share/file/magic'));

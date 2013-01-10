@@ -31,20 +31,43 @@ class MessagesController extends AppController {
 
 			extract($this->request->data);
 
-			$messages = $this->Message->find('list', array(
+			$messages = $this->Message->find('all', array(
 				'conditions' => array(
 					'user_id' => array($user_id, $to_user_id),
 					'to_user_id' => array($user_id, $to_user_id),
 				),
 				'order' => array('created' => 'desc'),
-				'fields' => array('id', 'content'),
 				'limit' => 10,
 				'page' => $page
 			));
 
 			$messages = array_reverse($messages);
 
-			echo json_encode(array('status' => 'ok', 'data' => $messages));
+			$return = array();
+
+			foreach ($messages as $message) {
+
+				extract($message);
+
+				if ($Message['user_id'] == $user_id) {
+					$me = true;
+				} else {
+					$me = false;
+				}
+
+				$return[] = array(
+					'date' => $Message['created'],
+					'content' => $Message['content'],
+					'me' => $me,
+				);
+
+			}
+
+			echo json_encode(array('status' => 'ok', 'data' => $return));
+
+		} else {
+
+			echo json_encode(array('status' => 'ko', 'message' => 'Error'));
 
 		}
 
