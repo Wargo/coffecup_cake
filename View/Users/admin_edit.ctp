@@ -30,7 +30,7 @@ echo $this->Form->inputs(array(
 	),
 	'talkmeabout' => array(
 		'label' => __('Háblame de ti', true),
-		'after' => __('Brevemente qué cosas te gustan (profesional y personalmente)', true)
+		'after' => __('Brevemente qué cosas te gustan (profesional y personalmente). Ej: investigar, tecnología, móviles, los deportes, el porno, bailar, comer, dormir, etc...', true)
 	),
 	'file' => array(
 		'label' => __('Foto', true),
