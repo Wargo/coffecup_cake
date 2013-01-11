@@ -17,6 +17,7 @@ echo $this->Form->inputs(array(
 	),
 	'mobile' => array(
 		'label' => __('Teléfono', true),
+		'after' => __('Sólo si quieres darlo', true)
 	),
 	'birthday' => array(
 		'label' => __('Fecha de nacimiento', true),
@@ -25,9 +26,11 @@ echo $this->Form->inputs(array(
 	),
 	'icomefrom' => array(
 		'label' => __('¿De dónde vienes?', true),
+		'after' => __('Ej: Valencia (España)', true)
 	),
 	'talkmeabout' => array(
 		'label' => __('Háblame de ti', true),
+		'after' => __('Brevemente qué cosas te gustan (profesional y personalmente)', true)
 	),
 	'file' => array(
 		'label' => __('Foto', true),
