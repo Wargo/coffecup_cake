@@ -24,6 +24,25 @@ class UsersController extends AppController {
 
 	}
 
+	function suscribe() {
+		
+		if ($this->request->data) {
+
+			extract($this->request->data);
+			
+			//$this->User->updateAll(array('cloud_id' => "'" . $cloud_id . "'"), array('id' => $user_id));
+			$this->User->id = $user_id;
+			$this->User->save(array('cloud_id' => $cloud_id));
+			echo json_encode(array('message' => $user_id . ' ' . $cloud_id));
+
+		} else {
+			echo json_encode(array('status' => 'ko', 'message' => 'Error'));
+		}
+
+		$this->autoRender = false;
+
+	}
+
 	function admin_index() {
 		
 		$users = $this->User->find('all');
